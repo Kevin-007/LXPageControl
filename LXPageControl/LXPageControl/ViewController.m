@@ -78,6 +78,7 @@
     
     [self.pageControl2 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(20);
         make.bottom.mas_equalTo(self.cycleView2.mas_bottom).offset(-20);
     }];
     
@@ -112,6 +113,7 @@
     
     [self.pageControl3 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(20);
         make.bottom.mas_equalTo(self.cycleView3.mas_bottom).offset(-20);
     }];
     
@@ -146,6 +148,7 @@
     
     [self.pageControl4 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.right.mas_equalTo(0);
+        make.height.mas_equalTo(20);
         make.bottom.mas_equalTo(self.cycleView4.mas_bottom).offset(-20);
     }];
     

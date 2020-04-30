@@ -118,6 +118,7 @@
                 make.right.mas_equalTo(-_style.padingEdge.right);
                 break;
         }
+        make.top.mas_equalTo(_style.padingEdge.top);
         make.bottom.mas_equalTo(-_style.padingEdge.bottom);
     }];
     
@@ -143,7 +144,6 @@
             make.centerY.mas_equalTo(0);
             make.width.mas_equalTo(width);
             make.height.mas_equalTo(height);
-           
         }];
     }];
 }
