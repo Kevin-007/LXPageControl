@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LXPageControl"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "A page control"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                        LXPageControl
+                        LXPageControl A page control
                    DESC
 
   s.homepage     = "https://github.com/Kevin-007/LXPageControl.git"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "LXPageControl/PageControl/**/*.{h,m}"
+  s.source_files  = "LXPageControl/PageControl/*"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
