@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LXPageControl"
-  s.version      = "1.0.5"
+  s.version      = "1.1.0"
   s.summary      = "A page control"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'LXPageControl/PageControl/*.{h,m}'
+  s.source_files  = 'LXPageControl/Classes/*.{h,m}'
 
   # s.exclude_files = "Classes/Exclude"
 
